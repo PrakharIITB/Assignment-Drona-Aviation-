@@ -1,0 +1,23 @@
+.landing-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.weather, .news{
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/weather.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    background-image: url('../assets/news.jpg'); 
+}
+
+.btn-3{
+    background-color: white;
+}

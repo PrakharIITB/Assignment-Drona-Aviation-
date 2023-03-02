@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.container{
+    justify-content: center;
+    background-color: #9DC08B;
+    height: 120vh;
+}
+
+.input-div{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.city-input::placeholder{
+    color: #609966 ;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+.city-input{
+    font-family: Raleway;
+    border: none;
+    color: #609966;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #EDF1D6;
+    border-radius: 15px;
+    width: 50vw;
+    height: 3vw;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+
+.current-info{
+    padding: 1rem 0;
+    width: 60vw;
+    color: white;
+    margin: auto;
+    text-align: center;
+    /* text-align: center; */
+    /* display: flex; */
+}
+
+.name-icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-icon{
+    width: 20vw;
+    height: 20vw;
+    /* filter: invert(50%); */
+}
+
+.name-icon h1{
+    font-size: 4.5vw;
+    margin: 0;
+}
+
+.name-icon h2{
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.forecast{
+    width: 90vw;
+    border-radius: 10px;
+    background-color: #EDF1D6;
+    margin: auto;
+    padding: 1rem 1rem;
+    color: #609966;
+    margin-bottom: 2rem;
+}
+
+.forecast-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forecast-item{
+    height: 100%;
+    text-align: center;
+}
+
+
